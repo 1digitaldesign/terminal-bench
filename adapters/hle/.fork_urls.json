@@ -1,0 +1,6 @@
+{
+  "hle_fork": "1digitaldesign/hle",
+  "harbor_fork": "1digitaldesign/harbor",
+  "hle_branch": "harbor-adapter",
+  "harbor_branch": "hle-adapter"
+}

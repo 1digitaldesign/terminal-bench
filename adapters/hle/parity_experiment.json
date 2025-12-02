@@ -1,0 +1,44 @@
+{
+  "adapter_name": "hle",
+  "version": "1.0.0",
+  "description": "Parity experiment results for HLE adapter",
+  "original_benchmark": {
+    "name": "HLE (Humanity's Last Exam)",
+    "url": "https://agi.safe.ai/",
+    "paper_url": "https://arxiv.org/pdf/2501.14249",
+    "dataset_url": "https://huggingface.co/datasets/cais/hle",
+    "leaderboard_url": "https://scale.com/leaderboard/humanitys_last_exam",
+    "version": "unknown"
+  },
+  "parity_experiments": [
+    {
+      "experiment_id": "placeholder-1",
+      "agent": "claude-code",
+      "model": "claude-sonnet-4",
+      "tasks_tested": 100,
+      "original_pass_rate": 0.32,
+      "harbor_pass_rate": 0.31,
+      "parity_achieved": true,
+      "notes": "Placeholder results - within 1% tolerance. Replace with actual parity experiment results.",
+      "date": "2025-01-XX"
+    },
+    {
+      "experiment_id": "placeholder-2",
+      "agent": "gpt-code",
+      "model": "gpt-4o-2024-11-20",
+      "tasks_tested": 100,
+      "original_pass_rate": 0.35,
+      "harbor_pass_rate": 0.34,
+      "parity_achieved": true,
+      "notes": "Placeholder results - within 1% tolerance. Replace with actual parity experiment results.",
+      "date": "2025-01-XX"
+    }
+  ],
+  "test_suite": {
+    "unit_tests": "pytest adapters/hle/tests/",
+    "coverage_target": ">90%",
+    "mocks_available": true,
+    "no_api_required": true
+  },
+  "notes": "PLACEHOLDER DATA - Replace with actual parity experiment results after running baseline and Harbor adapter experiments"
+}
